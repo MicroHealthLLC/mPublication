@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html> 
+	<head> 
+	<title>Health Search</title> 
+	<link href='main.css' rel='stylesheet' type='text/css'>
+	<script src="jquery.js"></script>
+	<script src="main.js"></script>
+	<script src="jquery.pajinate.min.js"></script>
+</head> 
+<body> 
+	<div style='padding:10px'>
+<p align="right"><b>mPublications</p></b>
+    	<a href="http://collections.nlm.nih.gov/" target="_blank">Powered by NLM</a>
+    	<a href="https://www.microhealthllc.com" target="_blank" style='padding-left:120px'>Visit us</a>
+    </div> 
+	<div id="logo">
+		<img src="logo.png">
+	</div>
+	<ul class="testTable">
+        <div class="testBody">
+	        <li class="testRow search-wrapper">
+	            <input type="text" id="search-text" placeholder="Enter text" required="">
+	            <button id="find">Search</button>
+	        </li>
+	    </div>
+	</ul>
+	<div id="results" style='display:none' class="container">
+		<ul class="contentBlog content" id="main-result">No Matching Reslut(s)</ul>
+		<br/><br/><div class="page_navigation"></div>
+	</div>
+<div id="busy-holder" style='display:none'><div id='busy'></div></div>
+</body>
+</html>
